@@ -19,7 +19,7 @@ async function Home() {
   //contentfulData.map((cardInfo:any )=> <CourseCardGoesHere cardInfo={cardInfo.fields}/>) // this will return two objects where you can find the info needed to create a course card
   
   return (
-   <h1 >Hello world</h1>
+   <h1 >Hello world TEST</h1>
   )
 }
 
