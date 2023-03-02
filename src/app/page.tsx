@@ -13,14 +13,15 @@ async function getContentfulData() {
   return contentfulData.items;
 }
 
-async function Home() {
+export default async function Home() {
 
   const contentfulData = await getContentfulData();
   //contentfulData.map((cardInfo:any )=> <CourseCardGoesHere cardInfo={cardInfo.fields}/>) // this will return two objects where you can find the info needed to create a course card
   
   return (
-   <h1 >Hello world</h1>
+    <div>
+     <h1 >Hello Avocademy</h1>
+    </div>
   )
 }
 
-export default Home;
