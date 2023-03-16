@@ -16,6 +16,10 @@ export default async function Home() {
 
   const contentfulData = await getContentfulData();
   //contentfulData.map((cardInfo:any )=> <CourseCardGoesHere cardInfo={cardInfo.fields}/>) // this will return two objects where you can find the info needed to create a course card
+  // contentfulData.map(x => {
+  //   console.log(x.fields);
+  // });
+  
   return (
     <div className={styles.container}>
       <div className={styles.card}>
