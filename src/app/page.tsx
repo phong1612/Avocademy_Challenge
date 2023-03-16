@@ -19,7 +19,7 @@ export default async function Home() {
   // contentfulData.map(x => {
   //   console.log(x.fields);
   // });
-  
+  // Only 1 card. Currently working on improving the card to make sure it works and working on making all cards work
   return (
     <div className={styles.container}>
       <div className={styles.card}>
